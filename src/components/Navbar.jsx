@@ -112,25 +112,46 @@ const Navbar = () => {
       >
         <div className="fixed top-6 right-0 z-20 w-full h-screen bg-primary_2 flex flex-col items-center justify-center gap-10">
           <ul className="w-1/2 flex flex-col justify-center items-center text-center text-[18px] leading-[24px] uppercase px-6">
-            <li className="w-full px-3 py-2 hover:bg-primary hover:text-primary_1 transition-colors duration-150 ease-in-out">
+            <li
+              onClick={() => setIsOpen(false)}
+              className="w-full px-3 py-2 hover:bg-primary hover:text-primary_1 transition-colors duration-150 ease-in-out"
+            >
               <Link href="/">Home</Link>
             </li>
-            <li className="w-full px-3 py-2 hover:bg-primary hover:text-primary_1 transition-colors duration-150 ease-in-out">
+            <li
+              onClick={() => setIsOpen(false)}
+              className="w-full px-3 py-2 hover:bg-primary hover:text-primary_1 transition-colors duration-150 ease-in-out"
+            >
               <Link href="/about">About</Link>
             </li>
-            <li className="w-full px-3 py-2 hover:bg-primary hover:text-primary_1 transition-colors duration-150 ease-in-out">
+            <li
+              onClick={() => setIsOpen(false)}
+              className="w-full px-3 py-2 hover:bg-primary hover:text-primary_1 transition-colors duration-150 ease-in-out"
+            >
               <Link href="/">Menu</Link>
             </li>
-            <li className="w-full px-3 py-2 hover:bg-primary hover:text-primary_1 transition-colors duration-150 ease-in-out">
+            <li
+              onClick={() => setIsOpen(false)}
+              className="w-full px-3 py-2 hover:bg-primary hover:text-primary_1 transition-colors duration-150 ease-in-out"
+            >
               <Link href="/">Gallery</Link>
             </li>
-            <li className="w-full px-3 py-2 hover:bg-primary hover:text-primary_1 transition-colors duration-150 ease-in-out">
+            <li
+              onClick={() => setIsOpen(false)}
+              className="w-full px-3 py-2 hover:bg-primary hover:text-primary_1 transition-colors duration-150 ease-in-out"
+            >
               <Link href="/">Events</Link>
             </li>
-            <li className="w-full px-3 py-2 hover:bg-primary hover:text-primary_1 transition-colors duration-150 ease-in-out">
+            <li
+              onClick={() => setIsOpen(false)}
+              className="w-full px-3 py-2 hover:bg-primary hover:text-primary_1 transition-colors duration-150 ease-in-out"
+            >
               <Link href="/">Contact</Link>
             </li>
-            <li className="w-full flex justify-center items-center gap-4 px-3 py-2">
+            <li
+              onClick={() => setIsOpen(false)}
+              className="w-full flex justify-center items-center gap-4 px-3 py-2"
+            >
               <Link href="#">
                 <img src="/english.png" className="w-7 h-7" />
               </Link>

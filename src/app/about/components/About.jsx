@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="w-full flex flex-col justify-start items-start gap-5 px-5 lg:px-96 text-primary">
       <h1 className="text-[30px] lg:text-[48px] lg:leading-[48px] leading-[36px] uppercase">
-        Restaurant
+        Le Salama Restaurant
       </h1>
       <p className="text-[14px] leading-[24.5px]">
         {`Nestled in the heart of the mythical Djema el Fna square, Le Salama is a true refuge after an immersion in the colorful and effervescent souks.`}
