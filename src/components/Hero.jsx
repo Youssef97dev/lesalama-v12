@@ -46,7 +46,7 @@ const Hero = () => {
           </div>
         ))}
       </div>
-      <div className="relative w-full h-screen block lg:hidden">
+      <div className="relative w-full h-screen block lg:hidden mt-20">
         {imagesMobile.map((src, index) => (
           <div
             key={index}
