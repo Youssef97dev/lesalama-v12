@@ -10,7 +10,8 @@ const BookingButton = () => {
   return (
     <div className="relative w-full flex justify-center items-center gap-2 p-2">
       <Link
-        href="#"
+        href="https://www.sevenrooms.com/explore/lessalamamarrakech/reservations/create/search/"
+        target="_blank"
         className="w-[85%] py-3 rounded bg-primary text-primary_1 text-center text-[16px] leading-[24px] font-medium"
       >
         BOOK
@@ -33,7 +34,8 @@ const BookingButton = () => {
       </div>
 
       <Link
-        href=""
+        href="http://wa.me/212675480018"
+        target="_blank"
         className={`fixed bottom-[3.5rem] w-fit px-4 py-3 m-2  rounded bg-black text-primary_1 flex ${
           isOpen ? "right-0" : "-right-80"
         } justify-center items-center cursor-pointer transition-all duration-300 ease-in-out`}
@@ -42,7 +44,8 @@ const BookingButton = () => {
       </Link>
 
       <Link
-        href=""
+        href="https://www.instagram.com/lesalamamarrakech/"
+        target="_blank"
         className={`fixed bottom-[7rem] w-fit px-4 py-3 m-2  rounded bg-black text-primary_1 flex ${
           isOpen ? "right-0" : "-right-80"
         } justify-center items-center cursor-pointer transition-all duration-300 ease-in-out`}
@@ -51,7 +54,8 @@ const BookingButton = () => {
       </Link>
 
       <Link
-        href=""
+        href="mailto:reservations@lesalamamarrakech.com"
+        target="_blank"
         className={`fixed bottom-[10.5rem] w-fit px-4 py-3 m-2  rounded bg-black text-primary_1 flex ${
           isOpen ? "right-0" : "-right-80"
         } justify-center items-center cursor-pointer transition-all duration-300 ease-in-out`}

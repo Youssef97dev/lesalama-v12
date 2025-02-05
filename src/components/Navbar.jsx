@@ -54,19 +54,26 @@ const Navbar = () => {
         </ul>
         <div className="w-1/2 flex flex-col justify-center items-center bg-black">
           <Link
-            href="/"
+            href="https://www.sevenrooms.com/explore/lessalamamarrakech/reservations/create/search/"
+            target="_blank"
             className="w-full bg-primary_9 text-primary_1 text-center py-3"
           >
             Book
           </Link>
           <div className="w-full bg-primary_2 text-black py-3 flex justify-evenly items-center">
-            <Link href="#">
+            <Link href="http://wa.me/212675480018" target="_blank">
               <FaWhatsappSquare size={25} color="#128c7e" />
             </Link>
-            <Link href="#">
+            <Link
+              href="https://www.instagram.com/lesalamamarrakech/"
+              target="_blank"
+            >
               <FaInstagramSquare size={25} color="#ec0075" />
             </Link>
-            <Link href="#">
+            <Link
+              href="mailto:reservations@lesalamamarrakech.com"
+              target="_blank"
+            >
               <FaMailBulk size={25} color="#034fa0" />
             </Link>
           </div>
@@ -162,19 +169,26 @@ const Navbar = () => {
           </ul>
           <div className="w-1/2 flex flex-col justify-center items-center gap-3">
             <Link
-              href="/"
+              href="https://www.sevenrooms.com/explore/lessalamamarrakech/reservations/create/search/"
+              target="_blank"
               className="w-full bg-primary_9 text-primary_1 text-center py-3"
             >
               Book
             </Link>
             <div className="w-full bg-primary_2 text-black py-3 flex justify-evenly items-center">
-              <Link href="#">
+              <Link href="http://wa.me/212675480018" target="_blank">
                 <FaWhatsappSquare size={25} color="#128c7e" />
               </Link>
-              <Link href="#">
+              <Link
+                href="https://www.instagram.com/lesalamamarrakech/"
+                target="_blank"
+              >
                 <FaInstagramSquare size={25} color="#ec0075" />
               </Link>
-              <Link href="#">
+              <Link
+                href="mailto:reservations@lesalamamarrakech.com"
+                target="_blank"
+              >
                 <FaMailBulk size={25} color="#034fa0" />
               </Link>
             </div>
