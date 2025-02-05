@@ -57,8 +57,9 @@ const Hero = () => {
             <Image
               src={src}
               alt={`Image ${index + 1}`}
-              layout="fill"
-              objectFit="cover"
+              height={640}
+              width={480}
+              className="object-cover"
             />
           </div>
         ))}
