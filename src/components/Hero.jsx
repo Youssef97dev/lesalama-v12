@@ -9,6 +9,13 @@ const images = [
   "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/Salama/s9ddjvzdlmsosy5zywop",
 ];
 
+const imagesMobile = [
+  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/Salama/salama-sah-1_bavl73",
+  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/Salama/salama-sah-3_l2zn1q",
+  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/salamaV10/bgc6cpn0bkmf1rsz2dpd",
+  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/salamaV10/ukjkpsvpq0cxkhy7olzt",
+];
+
 const Hero = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -20,24 +27,43 @@ const Hero = () => {
     return () => clearInterval(interval);
   }, []);
   return (
-    <div className="relative w-full h-screen">
-      {images.map((src, index) => (
-        <div
-          key={index}
-          className={`absolute inset-0 transition-opacity duration-1000 ${
-            index === currentIndex ? "opacity-100" : "opacity-0"
-          }`}
-        >
-          <Image
-            src={src}
-            alt={`Image ${index + 1}`}
-            layout="fill"
-            objectFit="cover"
-            className="object-cover w-full h-full"
-          />
-        </div>
-      ))}
-    </div>
+    <>
+      <div className="relative w-full h-screen hidden lg:block">
+        {images.map((src, index) => (
+          <div
+            key={index}
+            className={`absolute inset-0 transition-opacity duration-1000 ${
+              index === currentIndex ? "opacity-100" : "opacity-0"
+            }`}
+          >
+            <Image
+              src={src}
+              alt={`Image ${index + 1}`}
+              layout="fill"
+              objectFit="cover"
+              className="object-cover w-full h-full "
+            />
+          </div>
+        ))}
+      </div>
+      <div className="relative w-full h-screen block lg:hidden">
+        {imagesMobile.map((src, index) => (
+          <div
+            key={index}
+            className={`absolute inset-0 transition-opacity duration-1000 ${
+              index === currentIndex ? "opacity-100" : "opacity-0"
+            }`}
+          >
+            <Image
+              src={src}
+              alt={`Image ${index + 1}`}
+              layout="fill"
+              objectFit="cover"
+            />
+          </div>
+        ))}
+      </div>
+    </>
   );
 };
 
