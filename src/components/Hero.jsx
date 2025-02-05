@@ -10,10 +10,10 @@ const images = [
 ];
 
 const imagesMobile = [
-  "https://res.cloudinary.com/dz7wroord/image/upload/c_thumb,h_640,w_480/Salama/salama-sah-1_bavl73",
-  "https://res.cloudinary.com/dz7wroord/image/upload/c_thumb,h_640,w_480/Salama/salama-sah-3_l2zn1q",
-  "https://res.cloudinary.com/dz7wroord/image/upload/c_thumb,h_640,w_480/salamaV10/bgc6cpn0bkmf1rsz2dpd",
-  "https://res.cloudinary.com/dz7wroord/image/upload/c_thumb,h_640,w_480/salamaV10/ukjkpsvpq0cxkhy7olzt",
+  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/Salama/salama-sah-1_bavl73",
+  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/Salama/salama-sah-3_l2zn1q",
+  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/salamaV10/bgc6cpn0bkmf1rsz2dpd",
+  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/salamaV10/ukjkpsvpq0cxkhy7olzt",
 ];
 
 const Hero = () => {
@@ -57,8 +57,8 @@ const Hero = () => {
             <Image
               src={src}
               alt={`Image ${index + 1}`}
-              height={640}
-              width={480}
+              height={1000}
+              width={500}
               className="object-cover"
             />
           </div>
