@@ -73,7 +73,7 @@ const Navbar = () => {
         </div>
       </nav>
 
-      <nav className="fixed z-30 left-0 top-0 w-full flex justify-between items-center px-5 bg-primary_2 lg:hidden">
+      <nav className="fixed z-30 left-0 top-0 w-full flex justify-between items-center py-1 px-5 bg-primary_2 lg:hidden">
         <div className="w-fit flex justify-center items-center">
           <Image
             src="/logo-salama-humberger.png"
