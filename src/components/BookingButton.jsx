@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 import { IoChatbubblesOutline } from "react-icons/io5";
 import { AiOutlineClose } from "react-icons/ai";
 import { FaInstagram, FaWhatsapp, FaMailBulk } from "react-icons/fa";
@@ -10,7 +10,7 @@ const BookingButton = () => {
   return (
     <div className="relative w-full flex justify-center items-center gap-2 p-2">
       <Link
-        to="#"
+        href="#"
         className="w-[85%] py-3 rounded bg-primary text-primary_1 text-center text-[16px] leading-[24px] font-medium"
       >
         BOOK
@@ -33,7 +33,7 @@ const BookingButton = () => {
       </div>
 
       <Link
-        to=""
+        href=""
         className={`fixed bottom-[3.5rem] w-fit px-4 py-3 m-2  rounded bg-black text-primary_1 flex ${
           isOpen ? "right-0" : "-right-80"
         } justify-center items-center cursor-pointer transition-all duration-300 ease-in-out`}
@@ -42,7 +42,7 @@ const BookingButton = () => {
       </Link>
 
       <Link
-        to=""
+        href=""
         className={`fixed bottom-[7rem] w-fit px-4 py-3 m-2  rounded bg-black text-primary_1 flex ${
           isOpen ? "right-0" : "-right-80"
         } justify-center items-center cursor-pointer transition-all duration-300 ease-in-out`}
@@ -51,7 +51,7 @@ const BookingButton = () => {
       </Link>
 
       <Link
-        to=""
+        href=""
         className={`fixed bottom-[10.5rem] w-fit px-4 py-3 m-2  rounded bg-black text-primary_1 flex ${
           isOpen ? "right-0" : "-right-80"
         } justify-center items-center cursor-pointer transition-all duration-300 ease-in-out`}

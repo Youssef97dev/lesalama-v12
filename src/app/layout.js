@@ -1,4 +1,6 @@
 import "./globals.css";
+import Navbar from "@/components/Navbar";
+import BookingButton from "@/components/BookingButton";
 
 export const metadata = {
   title: "Le Salama",
@@ -8,7 +10,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="relative w-full h-fit flex flex-col justify-start items-center">
+        <Navbar />
+        <div className="fixed bottom-0 left-0 w-full block lg:hidden z-10">
+          <BookingButton />
+        </div>
+        {children}
+      </body>
     </html>
   );
 }

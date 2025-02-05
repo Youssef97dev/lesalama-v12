@@ -1,5 +1,5 @@
 "use client";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 import { useState } from "react";
 import Image from "next/image";
 import { CiMenuBurger } from "react-icons/ci";
@@ -26,47 +26,47 @@ const Navbar = () => {
         </div>
         <ul className="w-1/2 flex flex-col justify-start items-start gap-4 text-[18px] leading-[24px] uppercase font-light px-6">
           <li className="w-full px-3 py-2 hover:bg-primary hover:text-primary_1 transition-colors duration-150 ease-in-out">
-            <Link to="/">Home</Link>
+            <Link href="/">Home</Link>
           </li>
           <li className="w-full px-3 py-2 hover:bg-primary hover:text-primary_1 transition-colors duration-150 ease-in-out">
-            <Link to="/">About</Link>
+            <Link href="/about">About</Link>
           </li>
           <li className="w-full px-3 py-2 hover:bg-primary hover:text-primary_1 transition-colors duration-150 ease-in-out">
-            <Link to="/">Menu</Link>
+            <Link href="/">Menu</Link>
           </li>
           <li className="w-full px-3 py-2 hover:bg-primary hover:text-primary_1 transition-colors duration-150 ease-in-out">
-            <Link to="/">Gallery</Link>
+            <Link href="/">Gallery</Link>
           </li>
           <li className="w-full px-3 py-2 hover:bg-primary hover:text-primary_1 transition-colors duration-150 ease-in-out">
-            <Link to="/">Events</Link>
+            <Link href="/">Events</Link>
           </li>
           <li className="w-full px-3 py-2 hover:bg-primary hover:text-primary_1 transition-colors duration-150 ease-in-out">
-            <Link to="/">Contact</Link>
+            <Link href="/">Contact</Link>
           </li>
           <li className="w-full flex justify-start items-center gap-4 px-3 py-2">
-            <Link to="#">
+            <Link href="#">
               <img src="/english.png" className="w-7 h-7" />
             </Link>
-            <Link to="#">
+            <Link href="#">
               <img src="/france.png" className="w-7 h-7" />
             </Link>
           </li>
         </ul>
         <div className="w-1/2 flex flex-col justify-center items-center bg-black">
           <Link
-            to="/"
+            href="/"
             className="w-full bg-primary_9 text-primary_1 text-center py-3"
           >
             Book
           </Link>
           <div className="w-full bg-primary_2 text-black py-3 flex justify-evenly items-center">
-            <Link to="#">
+            <Link href="#">
               <FaWhatsappSquare size={25} color="#128c7e" />
             </Link>
-            <Link to="#">
+            <Link href="#">
               <FaInstagramSquare size={25} color="#ec0075" />
             </Link>
-            <Link to="#">
+            <Link href="#">
               <FaMailBulk size={25} color="#034fa0" />
             </Link>
           </div>
@@ -113,47 +113,47 @@ const Navbar = () => {
         <div className="fixed top-6 right-0 z-20 w-full h-screen bg-primary_2 flex flex-col items-center justify-center gap-10">
           <ul className="w-1/2 flex flex-col justify-center items-center text-center text-[18px] leading-[24px] uppercase px-6">
             <li className="w-full px-3 py-2 hover:bg-primary hover:text-primary_1 transition-colors duration-150 ease-in-out">
-              <Link to="/">Home</Link>
+              <Link href="/">Home</Link>
             </li>
             <li className="w-full px-3 py-2 hover:bg-primary hover:text-primary_1 transition-colors duration-150 ease-in-out">
-              <Link to="/">About</Link>
+              <Link href="/about">About</Link>
             </li>
             <li className="w-full px-3 py-2 hover:bg-primary hover:text-primary_1 transition-colors duration-150 ease-in-out">
-              <Link to="/">Menu</Link>
+              <Link href="/">Menu</Link>
             </li>
             <li className="w-full px-3 py-2 hover:bg-primary hover:text-primary_1 transition-colors duration-150 ease-in-out">
-              <Link to="/">Gallery</Link>
+              <Link href="/">Gallery</Link>
             </li>
             <li className="w-full px-3 py-2 hover:bg-primary hover:text-primary_1 transition-colors duration-150 ease-in-out">
-              <Link to="/">Events</Link>
+              <Link href="/">Events</Link>
             </li>
             <li className="w-full px-3 py-2 hover:bg-primary hover:text-primary_1 transition-colors duration-150 ease-in-out">
-              <Link to="/">Contact</Link>
+              <Link href="/">Contact</Link>
             </li>
             <li className="w-full flex justify-center items-center gap-4 px-3 py-2">
-              <Link to="#">
+              <Link href="#">
                 <img src="/english.png" className="w-7 h-7" />
               </Link>
-              <Link to="#">
+              <Link href="#">
                 <img src="/france.png" className="w-7 h-7" />
               </Link>
             </li>
           </ul>
           <div className="w-1/2 flex flex-col justify-center items-center gap-3">
             <Link
-              to="/"
+              href="/"
               className="w-full bg-primary_9 text-primary_1 text-center py-3"
             >
               Book
             </Link>
             <div className="w-full bg-primary_2 text-black py-3 flex justify-evenly items-center">
-              <Link to="#">
+              <Link href="#">
                 <FaWhatsappSquare size={25} color="#128c7e" />
               </Link>
-              <Link to="#">
+              <Link href="#">
                 <FaInstagramSquare size={25} color="#ec0075" />
               </Link>
-              <Link to="#">
+              <Link href="#">
                 <FaMailBulk size={25} color="#034fa0" />
               </Link>
             </div>

@@ -1,8 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
-import { BrowserRouter } from "react-router-dom";
 import Loader from "./Loader";
-import MainLayout from "./MainLayout";
 import Hero from "./Hero";
 
 const Container = () => {
@@ -14,19 +12,7 @@ const Container = () => {
     return () => clearTimeout(timer);
   }, []);
 
-  return (
-    <>
-      {isClient ? (
-        <BrowserRouter>
-          <MainLayout>
-            <Hero />
-          </MainLayout>
-        </BrowserRouter>
-      ) : (
-        <Loader />
-      )}
-    </>
-  );
+  return <>{isClient ? <Hero /> : <Loader />}</>;
 };
 
 export default Container;
