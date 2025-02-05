@@ -110,7 +110,7 @@ const Navbar = () => {
         leaveFrom="transform translate-y-0 opacity-100"
         leaveTo="transform -translate-y-full opacity-0"
       >
-        <div className="fixed top-10 right-0 z-20 w-full h-screen bg-primary_2 flex flex-col items-center justify-center gap-10">
+        <div className="fixed top-6 right-0 z-20 w-full h-screen bg-primary_2 flex flex-col items-center justify-center gap-10">
           <ul className="w-1/2 flex flex-col justify-center items-center text-center text-[18px] leading-[24px] uppercase px-6">
             <li className="w-full px-3 py-2 hover:bg-primary hover:text-primary_1 transition-colors duration-150 ease-in-out">
               <Link to="/">Home</Link>
