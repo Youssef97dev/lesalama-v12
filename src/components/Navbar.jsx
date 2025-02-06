@@ -35,13 +35,13 @@ const Navbar = () => {
             <Link href="/">Menu</Link>
           </li>
           <li className="w-full px-3 py-2 hover:bg-primary hover:text-primary_1 transition-colors duration-150 ease-in-out">
-            <Link href="/">Gallery</Link>
+            <Link href="/gallery">Gallery</Link>
           </li>
           <li className="w-full px-3 py-2 hover:bg-primary hover:text-primary_1 transition-colors duration-150 ease-in-out">
             <Link href="/">Events</Link>
           </li>
           <li className="w-full px-3 py-2 hover:bg-primary hover:text-primary_1 transition-colors duration-150 ease-in-out">
-            <Link href="/">Contact</Link>
+            <Link href="/contact">Contact</Link>
           </li>
           <li className="w-full flex justify-start items-center gap-4 px-3 py-2">
             <Link href="#">
@@ -141,7 +141,7 @@ const Navbar = () => {
               onClick={() => setIsOpen(false)}
               className="w-full px-3 py-2 hover:bg-primary hover:text-primary_1 transition-colors duration-150 ease-in-out"
             >
-              <Link href="/">Gallery</Link>
+              <Link href="/gallery">Gallery</Link>
             </li>
             <li
               onClick={() => setIsOpen(false)}
@@ -153,7 +153,7 @@ const Navbar = () => {
               onClick={() => setIsOpen(false)}
               className="w-full px-3 py-2 hover:bg-primary hover:text-primary_1 transition-colors duration-150 ease-in-out"
             >
-              <Link href="/">Contact</Link>
+              <Link href="/contact">Contact</Link>
             </li>
             <li
               onClick={() => setIsOpen(false)}
