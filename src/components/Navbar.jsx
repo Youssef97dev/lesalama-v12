@@ -49,7 +49,7 @@ const Navbar = () => {
               className="cursor-pointer w-52 h-52 z-30"
             />
           </Link>
-          <ul className="w-1/2 flex flex-col justify-start items-start gap-4 text-[18px] leading-[24px] uppercase font-light px-6">
+          <ul className="w-[70%] flex flex-col justify-start items-start gap-4 text-[18px] leading-[24px] uppercase font-light px-6">
             <li className="w-full px-3 py-2 hover:bg-primary hover:text-primary_1 transition-colors duration-150 ease-in-out">
               <Link href="/">{t("menu.home")}</Link>
             </li>
@@ -88,7 +88,7 @@ const Navbar = () => {
               </div>
             </li>
           </ul>
-          <div className="w-1/2 flex flex-col justify-center items-center bg-black">
+          <div className="w-[70%] flex flex-col justify-center items-center bg-black">
             <Link
               href="https://www.sevenrooms.com/explore/lessalamamarrakech/reservations/create/search/"
               target="_blank"
