@@ -4,9 +4,9 @@ import Mapbox from "./components/MapBox";
 
 const page = () => {
   return (
-    <div className="w-full flex flex-col lg:flex-row justify-start lg:justify-between items-center px-5 lg:px-96 text-primary">
-      <Details />
+    <div className="w-full flex flex-col lg:flex-row-reverse justify-start gap-5 lg:justify-between items-center pb-28 px-2 lg:px-80 text-primary">
       <Mapbox />
+      <Details />
     </div>
   );
 };
