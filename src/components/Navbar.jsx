@@ -38,7 +38,7 @@ const Navbar = () => {
             <Link href="/gallery">Gallery</Link>
           </li>
           <li className="w-full px-3 py-2 hover:bg-primary hover:text-primary_1 transition-colors duration-150 ease-in-out">
-            <Link href="/">Events</Link>
+            <Link href="/events">Events</Link>
           </li>
           <li className="w-full px-3 py-2 hover:bg-primary hover:text-primary_1 transition-colors duration-150 ease-in-out">
             <Link href="/contact">Contact</Link>
@@ -147,7 +147,7 @@ const Navbar = () => {
               onClick={() => setIsOpen(false)}
               className="w-full px-3 py-2 hover:bg-primary hover:text-primary_1 transition-colors duration-150 ease-in-out"
             >
-              <Link href="/">Events</Link>
+              <Link href="/events">Events</Link>
             </li>
             <li
               onClick={() => setIsOpen(false)}
