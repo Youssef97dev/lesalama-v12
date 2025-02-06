@@ -81,7 +81,7 @@ const Hero = () => {
         ))}
         <div className="absolute w-[60%] h-16 bottom-16 right-2">
           <ReactPlayer
-            url="https://soundcloud.com/trending-music-afrno/sets/soul?si=0118046bf1654f32877ee95798ce0c8a&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+            url="https://soundcloud.com/trndmusik/sting-desert-rose-zuma-dionys-edit-trndmsk?in=le-salama/sets/le-salama-marrakech&si=968e8b0366f84433b83f4721477b346e&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
             width="100%"
             height="100%"
             config={{
