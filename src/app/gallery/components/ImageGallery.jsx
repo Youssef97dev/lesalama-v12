@@ -93,6 +93,18 @@ const galleryItems = [
   },
 ];
 
+const MemoizedImage = React.memo(({ src, alt }) => (
+  <Image
+    src={src}
+    alt={alt}
+    layout="responsive"
+    width={300}
+    height={300}
+    loading="lazy" // Lazy loading
+    className="rounded-sm"
+  />
+));
+
 const ImageGallery = () => {
   return (
     <div className="mx-auto py-5 px-4">
@@ -104,14 +116,7 @@ const ImageGallery = () => {
         {galleryItems?.map((image, index) => (
           <Link href={image.thumbnail} key={index}>
             <div className="masonry-item relative shadow-lg hover:scale-105 transition-all ease-linear overflow-hidden">
-              <Image
-                src={image.src}
-                alt={`Le salama ${index}`}
-                layout="responsive"
-                width={300}
-                height={300}
-                className="rounded-sm"
-              />
+              <MemoizedImage src={image.src} alt={`Le salama ${index}`} />
             </div>
           </Link>
         ))}
