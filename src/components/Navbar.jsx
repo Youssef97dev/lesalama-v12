@@ -10,9 +10,16 @@ import {
   FaInstagramSquare,
   FaMailBulk,
 } from "react-icons/fa";
+import { usePathname } from "next/navigation";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const pathname = usePathname();
+
+  // Render nothing if on the event page
+  if (pathname === "/events") {
+    return null;
+  }
   return (
     <>
       <nav className="fixed left-0 top-0 z-20 w-[25%] h-full lg:flex flex-col justify-between items-start gap-7 px-3 bg-gradient-to-r from-primary_2 to-transparent hidden">
@@ -32,7 +39,12 @@ const Navbar = () => {
             <Link href="/about">About</Link>
           </li>
           <li className="w-full px-3 py-2 hover:bg-primary hover:text-primary_1 transition-colors duration-150 ease-in-out">
-            <Link href="/">Menu</Link>
+            <Link
+              target="_blank"
+              href="https://www.lesalamamarrakech.com/menu/"
+            >
+              Menu
+            </Link>
           </li>
           <li className="w-full px-3 py-2 hover:bg-primary hover:text-primary_1 transition-colors duration-150 ease-in-out">
             <Link href="/gallery">Gallery</Link>
@@ -135,7 +147,12 @@ const Navbar = () => {
               onClick={() => setIsOpen(false)}
               className="w-full px-3 py-2 hover:bg-primary hover:text-primary_1 transition-colors duration-150 ease-in-out"
             >
-              <Link href="/">Menu</Link>
+              <Link
+                target="_blank"
+                href="https://www.lesalamamarrakech.com/menu/"
+              >
+                Menu
+              </Link>
             </li>
             <li
               onClick={() => setIsOpen(false)}

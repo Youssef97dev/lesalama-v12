@@ -4,9 +4,16 @@ import Link from "next/link";
 import { IoChatbubblesOutline } from "react-icons/io5";
 import { AiOutlineClose } from "react-icons/ai";
 import { FaInstagram, FaWhatsapp, FaMailBulk } from "react-icons/fa";
+import { usePathname } from "next/navigation";
 
 const BookingButton = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const pathname = usePathname();
+
+  // Render nothing if on the event page
+  if (pathname === "/events") {
+    return null;
+  }
   return (
     <div className="relative w-full flex justify-center items-center gap-2 p-2">
       <Link
