@@ -1,6 +1,9 @@
+"use client";
 import Image from "next/image";
+import { useTranslation } from "react-i18next";
 
 const Guests = () => {
+  const { t } = useTranslation();
   return (
     <div className="relative w-full h-screen">
       <Image
@@ -20,10 +23,12 @@ const Guests = () => {
           <div className="w-full flex justify-center items-center">
             <input
               type="text"
-              placeholder="Access Code"
+              placeholder={t("events.placeholder")}
               className="p-3 text-black focus:outline-none"
             />
-            <button className="py-3 px-4 bg-[#CA8A04]">ENTER</button>
+            <button className="py-3 px-4 bg-[#CA8A04]">
+              {t("events.button")}
+            </button>
           </div>
         </div>
       </div>

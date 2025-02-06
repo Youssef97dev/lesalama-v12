@@ -1,0 +1,22 @@
+{
+  "menu": {
+    "home": "Home",
+    "about": "About",
+    "menu": "Menu",
+    "gallery": "Gallery",
+    "events": "Events",
+    "contact": "Contact",
+    "book": "Book"
+  },
+  "about": {
+    "content_1": "Nestled in the heart of the mythical Djema el Fna square, Le Salama is a true refuge after an immersion in the colorful and effervescent souks.",
+    "content_2": "Here, you can enjoy a cocktail in peace and quiet, while savoring Moroccan culinary treasures.",
+    "content_3": "On the menu are the must-tries: melting shoulder of lamb, delicious Tangia, or delicate Kemias, all prepared with a finesse and savoir-faire that sublimates traditional flavors.",
+    "content_4": "The ambiance is not to be outdone: every evening, an oriental dance show adds a touch of magic to the atmosphere.",
+    "content_5": "But this place doesn't reveal all its secrets at first glance... There are secrets waiting to be discovered, for those who dare to explore beyond the obvious. Come and let yourself be carried away by the mysterious soul of this enchanting place."
+  },
+  "events": {
+    "placeholder": "Access Code",
+    "button": "Enter"
+  }
+}

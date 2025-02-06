@@ -1,0 +1,22 @@
+{
+  "menu": {
+    "home": "Accueil",
+    "about": "À propos",
+    "menu": "Menu",
+    "gallery": "Galerie",
+    "events": "Événements",
+    "contact": "Contact",
+    "book": "Réserver"
+  },
+  "about": {
+    "content_1": "Nichée au cœur de la mythique place Djema el Fna, Le Salama est un véritable refuge après une immersion dans les souks colorés et effervescents.",
+    "content_2": "Ici, vous pourrez savourer un cocktail en toute quiétude, tout en vous délectant des trésors culinaires marocains.",
+    "content_3": "Au menu, les incontournables : l’épaule d’agneau fondant, la délicieuse Tangia, ou encore les délicates Kemias, le tout préparé avec une finesse et un savoir-faire qui subliment les saveurs traditionnelles.",
+    "content_4": "L'ambiance n'est pas en reste : chaque soir un show de danse orientale ajoute une touche de magie à l’atmosphère.",
+    "content_5": "Mais ce lieu ne se dévoile pas entièrement au premier regard... Des secrets attendent d’être découverts, pour ceux qui osent explorer au-delà de l’évidence. Venez, et laissez-vous emporter par l'âme mystérieuse de ce lieu enchanteur."
+  },
+  "events": {
+    "placeholder": "Code d'accès",
+    "button": "Entrer"
+  }
+}

@@ -5,9 +5,11 @@ import { IoChatbubblesOutline } from "react-icons/io5";
 import { AiOutlineClose } from "react-icons/ai";
 import { FaInstagram, FaWhatsapp, FaMailBulk } from "react-icons/fa";
 import { usePathname } from "next/navigation";
+import { useTranslation } from "react-i18next";
 
 const BookingButton = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const { t } = useTranslation();
   const pathname = usePathname();
 
   // Render nothing if on the event page
@@ -19,9 +21,9 @@ const BookingButton = () => {
       <Link
         href="https://www.sevenrooms.com/explore/lessalamamarrakech/reservations/create/search/"
         target="_blank"
-        className="w-[85%] py-3 rounded bg-primary text-primary_1 text-center text-[16px] leading-[24px] font-medium"
+        className="w-[85%] py-3 rounded bg-primary text-primary_1 text-center text-[16px] leading-[24px] font-medium uppercase"
       >
-        BOOK
+        {t("menu.book")}
       </Link>
       <div
         className="w-[15%] py-3 rounded bg-primary text-primary_1 flex justify-center items-center cursor-pointer transition-all duration-500"
