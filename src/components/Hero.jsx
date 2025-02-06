@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import { useState, useEffect } from "react";
+import ReactPlayer from "react-player";
 
 const images = [
   "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/Salama/yakitd32v7jwvcvm45s2",
@@ -45,6 +46,21 @@ const Hero = () => {
             />
           </div>
         ))}
+
+        <div className="absolute w-[20%] h-20 bottom-2 right-2">
+          <ReactPlayer
+            url="https://soundcloud.com/trending-music-afrno/sets/soul?si=0118046bf1654f32877ee95798ce0c8a&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+            width="100%"
+            height="100%"
+            config={{
+              soundcloud: {
+                options: {
+                  sharing: true,
+                },
+              },
+            }}
+          />
+        </div>
       </div>
       <div className="relative w-full h-screen block lg:hidden">
         {imagesMobile.map((src, index) => (
@@ -63,6 +79,20 @@ const Hero = () => {
             />
           </div>
         ))}
+        <div className="absolute w-[60%] h-16 bottom-16 right-2">
+          <ReactPlayer
+            url="https://soundcloud.com/trending-music-afrno/sets/soul?si=0118046bf1654f32877ee95798ce0c8a&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+            width="100%"
+            height="100%"
+            config={{
+              soundcloud: {
+                options: {
+                  sharing: true,
+                },
+              },
+            }}
+          />
+        </div>
       </div>
     </>
   );
