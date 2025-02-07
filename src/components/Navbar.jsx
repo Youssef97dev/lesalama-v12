@@ -40,7 +40,7 @@ const Navbar = () => {
   return (
     isClient && (
       <>
-        <nav className="fixed left-0 top-0 z-20 w-[25%] h-screen lg:flex flex-col justify-between items-start gap-7 px-3 bg-gradient-to-r from-primary_2 to-transparent hidden">
+        <nav className="fixed left-0 top-0 z-20 w-[18%] h-screen lg:flex flex-col justify-between items-start gap-7 px-3 bg-gradient-to-r from-primary_2 to-transparent hidden">
           <Link href="/" className="w-fit flex justify-start items-start">
             <Image
               src="/logo-salama-humberger.png"
@@ -49,7 +49,7 @@ const Navbar = () => {
               className="cursor-pointer w-48 h-48 z-30"
             />
           </Link>
-          <ul className="w-[60%] flex flex-col justify-start items-start gap-0 text-[18px] leading-[24px] uppercase font-light px-6">
+          <ul className="w-[80%] flex flex-col justify-start items-start gap-0 text-[18px] leading-[24px] uppercase font-light px-6">
             <li className="w-full px-3 py-2 hover:bg-primary hover:text-primary_1 transition-all duration-150 ease-in-out">
               <Link href="/">{t("menu.home")}</Link>
             </li>
@@ -88,7 +88,7 @@ const Navbar = () => {
               </div>
             </li>
           </ul>
-          <div className="w-[60%] flex flex-col justify-center items-center bg-black">
+          <div className="w-[80%] flex flex-col justify-center items-center bg-black">
             <Link
               href="https://www.sevenrooms.com/explore/lessalamamarrakech/reservations/create/search/"
               target="_blank"
