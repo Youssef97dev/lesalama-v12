@@ -40,23 +40,23 @@ const Navbar = () => {
   return (
     isClient && (
       <>
-        <nav className="fixed left-0 top-0 z-20 w-[25%] h-full lg:flex flex-col justify-between items-start gap-7 px-3 bg-gradient-to-r from-primary_2 to-transparent hidden">
+        <nav className="fixed left-0 top-0 z-20 w-[25%] h-screen lg:flex flex-col justify-between items-start gap-7 px-3 bg-gradient-to-r from-primary_2 to-transparent hidden">
           <Link href="/" className="w-fit flex justify-start items-start">
             <Image
               src="/logo-salama-humberger.png"
               width={180}
               height={180}
-              className="cursor-pointer w-52 h-52 z-30"
+              className="cursor-pointer w-48 h-48 z-30"
             />
           </Link>
-          <ul className="w-[70%] flex flex-col justify-start items-start gap-4 text-[18px] leading-[24px] uppercase font-light px-6">
-            <li className="w-full px-3 py-2 hover:bg-primary hover:text-primary_1 transition-colors duration-150 ease-in-out">
+          <ul className="w-[60%] flex flex-col justify-start items-start gap-0 text-[18px] leading-[24px] uppercase font-light px-6">
+            <li className="w-full px-3 py-2 hover:bg-primary hover:text-primary_1 transition-all duration-150 ease-in-out">
               <Link href="/">{t("menu.home")}</Link>
             </li>
-            <li className="w-full px-3 py-2 hover:bg-primary hover:text-primary_1 transition-colors duration-150 ease-in-out">
+            <li className="w-full px-3 py-2 hover:bg-primary hover:text-primary_1 transition-all duration-150 ease-in-out">
               <Link href="/about">{t("menu.about")}</Link>
             </li>
-            <li className="w-full px-3 py-2 hover:bg-primary hover:text-primary_1 transition-colors duration-150 ease-in-out">
+            <li className="w-full px-3 py-2 hover:bg-primary hover:text-primary_1 transition-all duration-150 ease-in-out">
               <Link
                 target="_blank"
                 href="https://www.lesalamamarrakech.com/menu/"
@@ -64,13 +64,13 @@ const Navbar = () => {
                 {t("menu.menu")}
               </Link>
             </li>
-            <li className="w-full px-3 py-2 hover:bg-primary hover:text-primary_1 transition-colors duration-150 ease-in-out">
+            <li className="w-full px-3 py-2 hover:bg-primary hover:text-primary_1 transition-all duration-150 ease-in-out">
               <Link href="/gallery">{t("menu.gallery")}</Link>
             </li>
-            <li className="w-full px-3 py-2 hover:bg-primary hover:text-primary_1 transition-colors duration-150 ease-in-out">
+            <li className="w-full px-3 py-2 hover:bg-primary hover:text-primary_1 transition-all duration-150 ease-in-out">
               <Link href="/events">{t("menu.events")}</Link>
             </li>
-            <li className="w-full px-3 py-2 hover:bg-primary hover:text-primary_1 transition-colors duration-150 ease-in-out">
+            <li className="w-full px-3 py-2 hover:bg-primary hover:text-primary_1 transition-all duration-150 ease-in-out">
               <Link href="/contact">{t("menu.contact")}</Link>
             </li>
             <li className="w-full flex justify-start items-center gap-4 px-3 py-2">
@@ -88,15 +88,15 @@ const Navbar = () => {
               </div>
             </li>
           </ul>
-          <div className="w-[70%] flex flex-col justify-center items-center bg-black">
+          <div className="w-[60%] flex flex-col justify-center items-center bg-black">
             <Link
               href="https://www.sevenrooms.com/explore/lessalamamarrakech/reservations/create/search/"
               target="_blank"
-              className="w-full bg-primary_9 text-primary_1 text-center py-3"
+              className="w-full bg-primary_9 text-primary_1 text-center py-2"
             >
               {t("menu.book")}
             </Link>
-            <div className="w-full bg-primary_2 text-black py-3 flex justify-evenly items-center">
+            <div className="w-full bg-primary_2 text-black py-2 flex justify-evenly items-center">
               <Link href="http://wa.me/212675480018" target="_blank">
                 <FaWhatsappSquare size={25} color="#128c7e" />
               </Link>
