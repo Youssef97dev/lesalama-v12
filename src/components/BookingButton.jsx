@@ -23,7 +23,7 @@ const BookingButton = () => {
   }
   return (
     isClient && (
-      <div className="relative w-full flex justify-center items-center gap-2 p-2">
+      <div className="relative w-full flex justify-center items-center gap-2 p-2 z-50">
         <Link
           href="https://www.sevenrooms.com/explore/lessalamamarrakech/reservations/create/search/"
           target="_blank"
