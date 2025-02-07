@@ -1,6 +1,7 @@
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import BookingButton from "@/components/BookingButton";
+import { Analytics } from "@vercel/analytics/react";
 
 export const metadata = {
   title: "Le Salama",
@@ -16,6 +17,7 @@ export default function RootLayout({ children }) {
           <BookingButton />
         </div>
         {children}
+        <Analytics />
       </body>
     </html>
   );
