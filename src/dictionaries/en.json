@@ -18,5 +18,13 @@
   "events": {
     "placeholder": "Access Code",
     "button": "Enter"
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "firstname": "First Name",
+    "lastname": "Last Name",
+    "email": "Email",
+    "subject": "Subject",
+    "send": "Send"
   }
 }

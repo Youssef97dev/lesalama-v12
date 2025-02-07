@@ -18,5 +18,13 @@
   "events": {
     "placeholder": "Code d'accès",
     "button": "Entrer"
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "firstname": "Prénom",
+    "lastname": "Nom",
+    "email": "E-mail",
+    "subject": "Sujet",
+    "send": "Envoyer"
   }
 }
