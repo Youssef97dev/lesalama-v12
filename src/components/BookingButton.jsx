@@ -18,7 +18,7 @@ const BookingButton = () => {
   }, []);
 
   // Render nothing if on the event page
-  if (pathname === "/events") {
+  if (pathname === "/guests") {
     return null;
   }
   return (

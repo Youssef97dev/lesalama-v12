@@ -34,7 +34,7 @@ const Navbar = () => {
   }, []);
 
   // Render nothing if on the event page
-  if (pathname === "/events") {
+  if (pathname === "/guests") {
     return null;
   }
   return (
@@ -68,7 +68,7 @@ const Navbar = () => {
               <Link href="/gallery">{t("menu.gallery")}</Link>
             </li>
             <li className="w-full px-3 py-2 hover:bg-primary hover:text-primary_1 transition-all duration-150 ease-in-out">
-              <Link href="/events">{t("menu.events")}</Link>
+              <Link href="/guests">{t("menu.events")}</Link>
             </li>
             <li className="w-full px-3 py-2 hover:bg-primary hover:text-primary_1 transition-all duration-150 ease-in-out">
               <Link href="/contact">{t("menu.contact")}</Link>
@@ -188,7 +188,7 @@ const Navbar = () => {
                 onClick={() => setIsOpen(false)}
                 className="w-full px-3 py-2 hover:bg-primary hover:text-primary_1 transition-colors duration-150 ease-in-out"
               >
-                <Link href="/events">{t("menu.events")}</Link>
+                <Link href="/guests">{t("menu.events")}</Link>
               </li>
               <li
                 onClick={() => setIsOpen(false)}
