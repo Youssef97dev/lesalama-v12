@@ -1,0 +1,22 @@
+[
+  {
+    "id": "1",
+    "guestName": "Alice Johnson",
+    "guestCode": "GUEST001"
+  },
+  {
+    "id": "2",
+    "guestName": "Bob Smith",
+    "guestCode": "GUEST002"
+  },
+  {
+    "id": "3",
+    "guestName": "Charlie Brown",
+    "guestCode": "GUEST003"
+  },
+  {
+    "id": "4",
+    "guestName": "Diana Prince",
+    "guestCode": "GUEST004"
+  }
+]
