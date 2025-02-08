@@ -17,7 +17,8 @@
   },
   "events": {
     "placeholder": "Access Code",
-    "button": "Enter"
+    "button": "Enter",
+    "error": "Incorrect access code"
   },
   "contact": {
     "title": "Get in Touch",

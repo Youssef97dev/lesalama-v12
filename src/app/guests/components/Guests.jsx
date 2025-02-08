@@ -58,7 +58,7 @@ const Guests = () => {
             <div className="flex justify-center items-center gap-3 px-16 py-2 text-[#DC2626] bg-[#FECACA]">
               <LuShieldAlert size={18} />
               <span className="text-[12.8px]  leading-[20px]  font-medium">
-                Incorrect access code
+                {t("events.error")}
               </span>
             </div>
           )}

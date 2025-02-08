@@ -17,7 +17,8 @@
   },
   "events": {
     "placeholder": "Code d'accès",
-    "button": "Entrer"
+    "button": "Entrer",
+    "error": "Code d'accès incorrect"
   },
   "contact": {
     "title": "Contactez-nous",
