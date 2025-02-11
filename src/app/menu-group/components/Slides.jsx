@@ -28,22 +28,19 @@ const Slides = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src="https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/Menu%20group%20salama/ehklbo86e9mcefxvrbxr" />
+          <img src="https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/menu%20group%20salama%20v2/izansgrgyoohfvh8saia" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/Menu%20group%20salama/y7u9srzcg7x47pub2kbf" />
+          <img src="https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/menu%20group%20salama%20v2/itjdxpweehgruwmwbkg9" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/Menu%20group%20salama/bkvedlpwnet2njazs2z5" />
+          <img src="https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/menu%20group%20salama%20v2/t5c1wl17obzd6qquqgcy" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/Menu%20group%20salama/a7ajvhbtcyb8wtap96nw" />
+          <img src="https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/menu%20group%20salama%20v2/vqxkltibkq2npsnmbukx" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/Menu%20group%20salama/gfrvahutf5rnz1vkmpzx" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/Menu%20group%20salama/bkvedlpwnet2njazs2z5" />
+          <img src="https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/menu%20group%20salama%20v2/i1kbrsui0kmbjq3eehzq" />
         </SwiperSlide>
       </Swiper>
     </>
