@@ -15,11 +15,10 @@ import { EffectCube, Navigation } from "swiper/modules";
 import { RiArrowRightSLine, RiArrowLeftSLine } from "react-icons/ri";
 import guests from "../../../data/guestAccess.json";
 import { useRouter, useSearchParams } from "next/navigation";
-import { PulseLoader } from "react-spinners";
+import { MoonLoader } from "react-spinners";
 
 const Slides = () => {
   const [isClient, setIsClient] = useState(false);
-  const [isLoading, setIsLoading] = useState(true);
   const router = useRouter();
   const searchParams = useSearchParams();
   const accessCode = searchParams.get("accessCode") || {};
@@ -33,7 +32,6 @@ const Slides = () => {
     };
 
     checkAccessCode();
-    setIsLoading(false);
   }, [accessCode, router]);
 
   useEffect(() => {
@@ -42,13 +40,7 @@ const Slides = () => {
     return () => clearTimeout(timer);
   }, []);
   return !isClient ? (
-    <PulseLoader
-      color="#368e8a"
-      cssOverride={{}}
-      loading
-      margin={1}
-      size={50}
-    />
+    <MoonLoader color="#8b5330" loading size={50} />
   ) : (
     <>
       <Swiper
