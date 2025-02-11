@@ -40,7 +40,9 @@ const Slides = () => {
     return () => clearTimeout(timer);
   }, []);
   return !isClient ? (
-    <MoonLoader color="#8b5330" loading size={50} />
+    <div className="w-full h-full flex justify-center items-center">
+      <MoonLoader size={60} color="#8b5330" loading />
+    </div>
   ) : (
     <>
       <Swiper
