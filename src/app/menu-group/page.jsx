@@ -1,13 +1,14 @@
 import Slides from "./components/Slides";
 import { Suspense } from "react";
+import { PulseLoader } from "react-spinners";
 
 const page = () => {
   return (
-    <Suspense fallback={<div className="mt-20 font-bold">test</div>}>
-      <div className="w-full text-primary text-center mb-20 mt-28 lg:mt-5">
+    <div className="w-full text-primary text-center mb-20 mt-28 lg:mt-5">
+      <Suspense>
         <Slides />
-      </div>
-    </Suspense>
+      </Suspense>
+    </div>
   );
 };
 
