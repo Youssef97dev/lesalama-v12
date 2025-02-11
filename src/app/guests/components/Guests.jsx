@@ -17,7 +17,7 @@ const Guests = () => {
   const validateGuests = async (code) => {
     const codeExist = await guests.filter((guest) => guest.guestCode === code);
     if (codeExist.length > 0) {
-      router.push(`/events?accessCode=${code}`);
+      router.push(`/menu-group?accessCode=${code}`);
     } else {
       setErrorCode(true);
     }
