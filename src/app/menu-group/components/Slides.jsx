@@ -40,7 +40,7 @@ const Slides = () => {
     return () => clearTimeout(timer);
   }, []);
   return !isClient ? (
-    <div className="w-full h-full lg:h-screen flex justify-center items-center">
+    <div className="w-full h-[60vh] lg:h-screen flex justify-center items-center">
       <MoonLoader size={60} color="#8b5330" loading />
     </div>
   ) : (
