@@ -25,8 +25,7 @@ const Slides = () => {
           shadowOffset: 20,
           shadowScale: 0.94,
         }}
-        pagination={true}
-        modules={[EffectCube, Pagination, Navigation]}
+        modules={[EffectCube, Navigation]}
         navigation={{
           nextEl: ".swiper-button-next-ex1",
           prevEl: ".swiper-button-prev-ex1",
@@ -48,10 +47,10 @@ const Slides = () => {
         <SwiperSlide>
           <img src="https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/menu%20group%20salama%20v2/i1kbrsui0kmbjq3eehzq" />
         </SwiperSlide>
-        <button className="swiper-button-prev-ex1 grid place-content-center left-2 lg:-left-16 px-0.5 py-0.5 lg:px-4 lg:py-4 transition text-primary hover:text-white border border-primary  hover:border-primary hover:bg-primary rounded-full absolute z-[999] top-1/2 -translate-y-1/2">
+        <button className="swiper-button-prev-ex1 grid place-content-center left-[41%] lg:-left-16 px-0.5 py-0.5 lg:px-4 lg:py-4 transition text-primary hover:text-white border border-primary  hover:border-primary hover:bg-primary rounded-full absolute z-[999] top-[95%] lg:top-1/2 -translate-y-1/2">
           <RiArrowLeftSLine size={25} />
         </button>
-        <button className="swiper-button-next-ex1 grid place-content-center right-2 lg:-right-16 px-0.5 py-0.5 lg:px-4 lg:py-4 transition text-primary hover:text-white border border-primary  hover:border-primary hover:bg-primary rounded-full absolute z-[999] top-1/2 -translate-y-1/2">
+        <button className="swiper-button-next-ex1 grid place-content-center right-[41%] lg:-right-16 px-0.5 py-0.5 lg:px-4 lg:py-4 transition text-primary hover:text-white border border-primary  hover:border-primary hover:bg-primary rounded-full absolute z-[999] top-[95%] lg:top-1/2 -translate-y-1/2">
           <RiArrowRightSLine size={25} />
         </button>
       </Swiper>
