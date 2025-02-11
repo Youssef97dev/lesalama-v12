@@ -71,6 +71,26 @@ const galleryItems = [
     thumbnail:
       "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/Salama/aed9h6xneawaaqh9aqz4",
   },
+  {
+    src: "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/Salama/dfxqvtqmzk0eog6mwphj",
+    thumbnail:
+      "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/Salama/dfxqvtqmzk0eog6mwphj",
+  },
+  {
+    src: "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/Salama/fj3o2usyohqiowhaldis",
+    thumbnail:
+      "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/Salama/fj3o2usyohqiowhaldis",
+  },
+  {
+    src: "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/Salama/yakitd32v7jwvcvm45s2",
+    thumbnail:
+      "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/Salama/yakitd32v7jwvcvm45s2",
+  },
+  {
+    src: "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/Salama/ni7vfkrlwb87zqrvpxnu",
+    thumbnail:
+      "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/Salama/ni7vfkrlwb87zqrvpxnu",
+  },
 ];
 
 const MemoizedImage = React.memo(({ src, alt }) => (
