@@ -33,19 +33,19 @@ const Slides = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src="https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/menu%20group%20salama%20v2/izansgrgyoohfvh8saia" />
+          <img src="/menu/menu-1.png" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/menu%20group%20salama%20v2/itjdxpweehgruwmwbkg9" />
+          <img src="/menu/menu-2.png" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/menu%20group%20salama%20v2/t5c1wl17obzd6qquqgcy" />
+          <img src="/menu/menu-3.png" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/menu%20group%20salama%20v2/vqxkltibkq2npsnmbukx" />
+          <img src="/menu/menu-4.png" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/menu%20group%20salama%20v2/i1kbrsui0kmbjq3eehzq" />
+          <img src="/menu/menu-5.png" />
         </SwiperSlide>
         <button className="swiper-button-prev-ex1 grid place-content-center left-[41%] lg:-left-16 px-0.5 py-0.5 lg:px-4 lg:py-4 transition text-primary hover:text-white border border-primary  hover:border-primary hover:bg-primary rounded-full absolute z-[999] top-[95%] lg:top-1/2 -translate-y-1/2">
           <RiArrowLeftSLine size={25} />
