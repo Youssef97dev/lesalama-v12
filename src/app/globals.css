@@ -145,6 +145,14 @@ body {
   .masonry {
     column-count: 2;
   }
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
 }
 
 @media (min-width: 768px) {
@@ -157,9 +165,27 @@ body {
   .masonry {
     column-count: 4;
   }
+
+  .swiper {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
 }
 
 .masonry-item {
   break-inside: avoid;
   margin-bottom: 1rem;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
 }
