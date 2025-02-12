@@ -75,7 +75,7 @@ const Hero = () => {
               alt={`Image ${index + 1}`}
               height={1000}
               width={500}
-              className="object-cover h-screen"
+              className="object-cover h-full"
             />
           </div>
         ))}
