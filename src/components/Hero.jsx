@@ -79,6 +79,15 @@ const Hero = () => {
             />
           </div>
         ))}
+        <div className="absolute w-full h-full flex justify-center items-center">
+          <Image
+            src="/logo-salama-humberger-white.png"
+            alt={`logo le salama`}
+            height={180}
+            width={180}
+            className="object-cover"
+          />
+        </div>
       </div>
     </>
   );

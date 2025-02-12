@@ -116,27 +116,27 @@ const Navbar = () => {
           </div>
         </nav>
 
-        <nav className="fixed z-30 left-0 top-0 w-full flex justify-between items-center py-1 px-5 bg-primary_2 lg:hidden">
+        <nav className="fixed z-30 left-0 top-0 w-full flex justify-between items-center py-2 px-3 bg-primary_2 lg:hidden">
           <Link href="/" className="w-fit flex justify-center items-center">
             <Image
-              src="/logo-salama-humberger.png"
-              width={150}
-              height={150}
-              className="cursor-pointer w-20 h-20"
+              src="/logo-salama-brown.png"
+              width={100}
+              height={100}
+              className="cursor-pointer"
             />
           </Link>
           <div
-            className="text-black transition-transform duration-500 pl-2"
+            className="text-primary transition-transform duration-500 pl-2"
             onClick={() => setIsOpen(!isOpen)}
           >
             {isOpen ? (
               <AiOutlineClose
-                size={30}
+                size={25}
                 className="transform transition-transform duration-500 rotate-180"
               />
             ) : (
               <CiMenuBurger
-                size={30}
+                size={25}
                 className="transform transition-transform duration-300 rotate-0"
               />
             )}
