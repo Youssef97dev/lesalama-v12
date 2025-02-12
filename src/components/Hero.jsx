@@ -11,10 +11,10 @@ const images = [
 ];
 
 const imagesMobile = [
-  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/Salama/salama-sah-1_bavl73",
-  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/Salama/salama-sah-3_l2zn1q",
-  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/salamaV10/bgc6cpn0bkmf1rsz2dpd",
-  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/salamaV10/ukjkpsvpq0cxkhy7olzt",
+  "/hero/1.jpg",
+  "/hero/2.jpg",
+  "/hero/3.jpg",
+  "/hero/4.jpg",
 ];
 
 const Hero = () => {
